@@ -6,7 +6,7 @@ import (
 	"net/http"
 )
 
-const name = "Golang Golang Go"
+const name = "Golang Golang Go 1.1"
 
 func main() {
 	http.HandleFunc("/", func(writer http.ResponseWriter, request *http.Request) {
